@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat App</title>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/js/chat.js"></script>
 </head>
 <body>
     Chap App
+
+    <form id="message-form" action="submit">
+        <input name="message" placeholder="Message"/>
+        <button>Send</button>
+    </form>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/chat.js"></script>
 </body>
 </html>
